@@ -1,20 +1,21 @@
 {
   "name": "broadcast-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "CLI WebSocket broadcast server",
+  "main": "src/index.js",
+  "bin": {
+    "broadcast-server": "./src/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js start",
+    "connect": "node src/index.js connect",
+    "dev": "nodemon src/index.js start"
+  },
   "dependencies": {
-    "commander": "^15.0.0",
-    "ws": "^8.21.0"
+    "commander": "^14.0.1",
+    "ws": "^8.18.3"
   },
   "devDependencies": {
-    "nodemon": "^3.1.14"
+    "nodemon": "^3.1.10"
   }
 }
