@@ -213,7 +213,7 @@ Terminal 3:
 broadcast-server connect --name Alex
 ```
 
-If Mehedi types:
+If Faviyan types:
 
 ```txt
 Hello everyone
@@ -238,6 +238,4 @@ Possible features to add later:
 - Better error handling
 - Colored terminal output
 
-[## Author
-
-Created by Mehedi as a beginner-friendly WebSocket CLI project.](https://roadmap.sh/projects/broadcast-server)
+https://roadmap.sh/projects/broadcast-server
